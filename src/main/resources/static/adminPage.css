@@ -1,0 +1,165 @@
+.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/sexual-harassment-un-women-illustration.png");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 741px;
+}
+
+.u-section-1 .u-text-1 {
+  width: 764px;
+  font-size: 3rem;
+  margin: 60px auto 0;
+}
+
+.u-section-1 .u-table-1 {
+  margin-top: 76px;
+  margin-bottom: 60px;
+  margin-left: 0;
+}
+
+.u-block-1e55-49 {
+  border-style: dotted;
+}
+
+.u-block-1e55-48 {
+  border-style: dotted;
+}
+
+.u-section-1 .u-table-header-1 {
+  background-image: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.u-section-1 .u-table-cell-1 {
+  padding: 10px 20px;
+}
+
+.u-section-1 .u-table-cell-2 {
+  padding: 10px 20px;
+}
+
+.u-section-1 .u-table-cell-3 {
+  padding: 10px 20px;
+}
+
+.u-section-1 .u-table-cell-4 {
+  font-weight: 400;
+  padding: 10px 20px;
+}
+
+.u-section-1 .u-table-cell-5 {
+  font-weight: 400;
+  padding: 10px 20px;
+}
+
+.u-section-1 .u-table-cell-6 {
+  border-style: dotted;
+  padding: 10px 20px;
+}
+
+.u-section-1 .u-table-cell-7 {
+  border-style: dotted;
+  padding: 10px 20px;
+}
+
+.u-section-1 .u-table-cell-8 {
+  border-style: dotted;
+  padding: 10px 20px;
+}
+
+.u-section-1 .u-table-cell-9 {
+  border-style: dotted;
+  padding: 10px 20px;
+}
+
+.u-section-1 .u-table-cell-10 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-block-1e55-35 {
+  background-image: none;
+}
+
+.u-block-1e55-42 {
+  padding: 10px 20px;
+}
+
+.u-block-1e55-43 {
+  padding: 10px 20px;
+}
+
+.u-block-1e55-44 {
+  padding: 10px 20px;
+}
+
+.u-block-1e55-45 {
+  padding: 10px 20px;
+}
+
+.u-block-1e55-57 {
+  padding: 10px 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 611px;
+  }
+
+  .u-section-1 .u-table-1 {
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-table-cell-10 {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 468px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 926px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.4375rem;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-table-1 {
+    margin-top: 101px;
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 681px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
+}

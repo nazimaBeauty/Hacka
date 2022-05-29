@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" xmlns:th="">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Login Now">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>adminPage</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <link rel="stylesheet" href="adminPage.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <link id="u-theme-google-font" rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i">
+
+
+    <script type="application/ld+json">{
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "RegistrationHack",
+        "logo": "#"
+    }</script>
+    <meta name="theme-color" content="#029fe7">
+    <meta property="og:title" content="adminPage">
+    <meta property="og:type" content="website">
+</head>
+<body class="u-body">
+<header class="u-clearfix u-header u-header" id="sec-4ed0" th:insert="blocks/header::header"></header>
+<section class="u-align-center u-clearfix u-image u-shading u-section-1" id="carousel_5277" data-image-width="1200"
+         data-image-height="500">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-custom-font u-font-source-sans-pro u-text u-text-1"> Здесь вы можете проверить</h2>
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+            <table class="u-table-entity">
+                <colgroup>
+                    <col width="20%">
+                    <col width="20%">
+                    <col width="20%">
+                    <col width="20%">
+                    <col width="20%">
+                </colgroup>
+                <thead class="u-palette-3-base u-table-header u-table-header-1">
+                <tr style="height: 70px;">
+                    <th class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-5-dark-1 u-table-cell u-table-cell-1">
+                        Ник
+                    </th>
+                    <th class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-5-dark-1 u-table-cell u-table-cell-2">
+                        Возраст
+                    </th>
+                    <th class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-5-dark-1 u-table-cell u-table-cell-3">
+                        Страна
+                    </th>
+                    <th class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-5-dark-1 u-table-cell u-table-cell-4">
+                        Счетчик
+                    </th>
+                    <th class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-5-dark-1 u-table-cell u-table-cell-5">
+                        Удалить
+                    </th>
+                </tr>
+                </thead>
+                <div th:each="el : ${posts}">
+                    <tbody class="u-table-body">
+                    <tr style="height: 66px;">
+                        <td class="u-border-1 u-border-palette-5-dark-1 u-table-cell u-table-cell-6"
+                            th:text="${el.nick}"></td>
+                        <td class="u-border-1 u-border-palette-5-dark-1 u-table-cell u-table-cell-7"
+                            th:text="${el.age}"></td>
+                        <td class="u-border-1 u-border-palette-5-dark-1 u-table-cell u-table-cell-8"
+                            th:text="${el.country}"></td>
+                        <td class="u-border-1 u-border-palette-5-dark-1 u-table-cell u-table-cell-9">0</td>
+                        <td class="u-btn-rectangle u-hover-palette-1-dark-1 u-palette-2-base u-table-cell u-table-cell-10">
+                            <form method="GET">
+                                <input type="hidden" th:value="${el.id}" name="id">
+                                <div class="u-align-left u-form-group u-form-submit">
+                                    <input class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-black u-btn-1"
+                                           type="submit" value="Удалить">
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                    </tbody>
+                </div>
+            </table>
+        </div>
+    </div>
+</section>
+
+
+<footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-410c">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">WonderWoman/VR Club/ Meerim - Kanykei - Nurs</p>
+    </div>
+</footer>
+
+</body>
+</html>
